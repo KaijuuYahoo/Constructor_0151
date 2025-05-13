@@ -9,7 +9,12 @@ class buku{
             //nilai parameter 'judul' untuk member variabel judul
             this -> judul = jdl;
             // return variabel judul
-            return ju
+            return this ->judul;
         }
 
 };
+
+int main(){
+    buku bukunya;
+    cout << bukunya
+}
