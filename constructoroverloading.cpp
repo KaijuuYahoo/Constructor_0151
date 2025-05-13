@@ -21,5 +21,11 @@ mahasiswa::mahasiswa(int iNim){
 }
 
 mahasiswa::mahasiswa(string iNama){
-    nama:iNama; //definisi hanya NAMAN
+    nama:iNama; //definisi hanya NAMA
+}
+
+int main(){
+    mahasiswa mhs1{102030};
+    mahasiswa mhs2{"Andi"};
+    m
 }
