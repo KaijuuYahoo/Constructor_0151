@@ -15,4 +15,8 @@ class buku{
         }
 };
 
-int main
+int main(){
+    buku bukunya;
+    //Chain Function Calls
+    cout <<
+}
