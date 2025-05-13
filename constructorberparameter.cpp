@@ -11,5 +11,9 @@ class mahasiswa{
 mahasiswa::mahasiswa(int nim, string nama){
     cout << "Constructor yang terpanggil" <<endl;
     cout << "NIM : " << nim << endl;
-    cout << "Nama : " << nama << endl; 
+    cout << "Nama : " << nama << endl;
+}
+int main (){
+    // Memanggil constructor dengan parameter
+    maha
 }
