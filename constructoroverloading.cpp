@@ -24,8 +24,25 @@ mahasiswa::mahasiswa(string iNama){
     nama:iNama; //definisi hanya NAMA
 }
 
+mahasiswa::mahasiswa(int iNim,string iNama){
+    nim = iNim;
+    nama:iNama; //definisi hanya NAMA
+}
+
+void mahasiswa::cetak(){
+    cout << endl << "Nim : " << nim << endl;
+    cout<< "Nama : "<< nama << endl;
+}
+
 int main(){
-    mahasiswa mhs1{102030};
-    mahasiswa mhs2{"Andi"};
-    m
+    mahasiswa mhs1{102030}; //Hanya NIM
+    mahasiswa mhs2{"Andi"}; //Hanya NAMA
+    mahasiswa mhs3{010203, "Santi"};//NIM dan NAMA
+
+    //Tampilkan Nilai
+    cout << "Mahasiswa 1 : "; mhs1.cetak();
+    cout << "Mahasiswa 2 : "; mhs2.cetak();
+    cout << "Mahasiswa 3 : "; mhs3.cetak();
+
+    return 0
 }
